@@ -4,14 +4,14 @@
 }
 
 body{
-    background-color: rgb(253, 207, 207);
+    background-color: white;
 }
 
 h1{
     text-align: center;
     color: white;
     padding: 30px;
-    background-color:#8b1313;
+    background-color:#25740d;
 }
 
 p{
@@ -38,11 +38,11 @@ a{
 }
 
 a:hover{
-    color: #d38003;
+    color: #25740d;
 }
 
 footer{
-    background-color:#8b1313;
+    background-color:#25740d;
     margin-top: 40px;
     color: white;
     padding: 30px;
@@ -56,5 +56,5 @@ img{
     width: 300px;
     display: block;
     margin: 60px auto;
-    border: 7px solid #8b1313;
+    border: 7px solid #000000;
 }
