@@ -10,8 +10,17 @@ body{
 h1{
     text-align: center;
     color: white;
-    padding: 30px;
-    background-color:#25740d;
+    padding: 170px;
+    background-image: url("/assets/ceu.jpg");
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #caf;
+    margin-top: 5px;
 }
 
 p{
@@ -31,14 +40,28 @@ li{
 
 a{
     text-decoration: none;
-    color: white;
+    text-align: center;
+    color: #25740d;
     display: block;
-    font-size: 20px;
+    font-size: 30px;
     margin:10px 30px;
+    background-color: #F0F0F0;
+    padding: 20px;
+    font-weight: 400;
 }
 
 a:hover{
-    color: #25740d;
+    color: white;
+    background-color: #25740d;
+    font-size: 40px;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin: 10px 30px;
 }
 
 footer{
