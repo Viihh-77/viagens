@@ -1,40 +1,110 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
+    font-family: 'Poppins', sans-serif;
     background-color: white;
 }
 
-#img1{
-    text-align: center;
-    color: white;
-    padding: 470px;
-    background-image: url("/assets/pexels-olenkabohovyk-5345027.jpg");
-    background-repeat: no-repeat;
+.bannerImg {
+    position: relative;
+    background-image: url("/assets/pexels-ozgomz-868097.jpg");
     background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
-#img2{
-    text-align: center;
-    color: white;
-    padding: 470px;
-    background-image: url("/assets/pexels-kurchakto-80608115-27572799.jpg");
-    background-repeat: no-repeat;
+.bannerImg2 {
+    position: relative;
+    background-image: url("/assets/pexels-andrew-2859169.jpg");
     background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
-#img3{
-    text-align: center;
-    color: white;
-    padding: 470px;
-    background-image: url("/assets/pexels-avonnephoto-3916014.jpg");
-    background-repeat: no-repeat;
+.bannerImg3 {
+    position: relative;
+    background-image: url("/assets/pexels-ela-yudhanira-1570636-3019893.jpg");
     background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
-h2{
+.bannerImg4 {
+    position: relative;
+    background-image: url("/assets/pexels-ela-yudhanira-1570636-3019893.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bannerImg5 {
+    position: relative;
+    background-image: url("/assets/pexels-spdel-2758567.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bannerImg6 {
+    position: relative;
+    background-image: url("/assets/pexels-luke-webb-1336561-2738173.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bannerImg7 {
+    position: relative;
+    background-image: url("/assets/pexels-julia-volk-5198285.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bannerImg8 {
+    position: relative;
+    background-image: url("/assets/pexels-gabriel-peter-219375-710263.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bannerImg9 {
+    position: relative;
+    background-image: url("/assets/pexels-scottwebb-136721.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bannerImg10 {
+    position: relative;
+    background-image: url("/assets/pexels-apasaric-1285625.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(20, 83, 45, 0.3);
+    padding: 100px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
     text-align: center;
     color: black;
 }
@@ -44,43 +114,69 @@ h2::after {
     display: block;
     width: 90px;
     height: 5px;
-    background-color: #25740d;
-    margin: 10px auto 0; /* Centraliza horizontalmente */
+    background-color: #14532d;
+    margin: 10px auto 0;
+}
+
+h3 {
+    margin: 30px;
+}
+
+h4 {
+    font-size: 15px;
+    margin: 1px;
 }
 
 p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     margin: 30px auto;
     text-align: justify;
-    width: 1765px;
+    width: 1500px;
 }
 
-ul{
-    margin: left 35px;
-    list-style:none;
+ul {
+    margin-left: 35px;
+    list-style: none;
 }
 
-li{
-    font-size:23px;
-    margin-top:10px
+li {
+    font-size: 23px;
+    margin-top: 10px;
 }
 
-a{
+a:not(.rodape a) {
     text-decoration: none;
     text-align: center;
-    color: #25740d;
+    color: #14532d;
     display: block;
     font-size: 30px;
-    margin:10px 30px;
+    margin: 20px auto;
     background-color: #F0F0F0;
     padding: 20px;
     font-weight: 400;
+    width: 1500px;
 }
 
-a:hover{
+.Efeito a:hover {
+    transform: scale(1.1);
+    background-color: #14532d;
     color: white;
-    background-color: #25740d;
-    font-size: 40px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+    width: auto;
+    display: block;
+    margin: 5px;
+}
+
+.rodape a:hover {
+    color: #ccc;
 }
 
 #link {
@@ -91,42 +187,23 @@ a:hover{
     margin: 10px 30px;
 }
 
-footer{
-    background-color:#25740d;
+footer {
+    background-color: #14532d;
     margin-top: 20px;
     color: white;
     padding: 30px;
 }
 
-h3{
-    margin: 30px;
-}
-
-h4{
-    font-size: 15px;
-    margin: 1px;
-}
-
-img{
+img {
     width: 300px;
     margin: 60px auto;
 }
 
-.imagens{
+.imagens {
     text-align: center;
 }
 
-.noro{
-    text-align: center;
-}
-
-.noro img{
-    margin: 60px;
-    width: 350px;
-    height: 500px;
-}
-
-.imagens img{
+.imagens img {
     margin: 60px;
     width: 350px;
     height: 500px;
