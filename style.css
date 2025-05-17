@@ -7,25 +7,52 @@ body{
     background-color: white;
 }
 
-h1{
+#img1{
     text-align: center;
     color: white;
-    padding: 170px;
-    background-image: url("/assets/ceu.jpg");
+    padding: 470px;
+    background-image: url("/assets/pexels-olenkabohovyk-5345027.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1::after {
+#img2{
+    text-align: center;
+    color: white;
+    padding: 470px;
+    background-image: url("/assets/pexels-kurchakto-80608115-27572799.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img3{
+    text-align: center;
+    color: white;
+    padding: 470px;
+    background-image: url("/assets/pexels-avonnephoto-3916014.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+h2::after {
     content: '';
     display: block;
-    width: 100px;
-    height: 2px;
-    background-color: #caf;
-    margin-top: 5px;
+    width: 90px;
+    height: 5px;
+    background-color: #25740d;
+    margin: 10px auto 0; /* Centraliza horizontalmente */
 }
 
-p{
+p {
     font-size: 20px;
-    margin: 30px;
+    margin: 30px auto;
+    text-align: justify;
+    width: 1765px;
 }
 
 ul{
@@ -66,18 +93,41 @@ a:hover{
 
 footer{
     background-color:#25740d;
-    margin-top: 40px;
+    margin-top: 20px;
     color: white;
     padding: 30px;
 }
 
-h2, h3{
+h3{
     margin: 30px;
+}
+
+h4{
+    font-size: 15px;
+    margin: 1px;
 }
 
 img{
     width: 300px;
-    display: block;
     margin: 60px auto;
-    border: 7px solid #000000;
+}
+
+.imagens{
+    text-align: center;
+}
+
+.noro{
+    text-align: center;
+}
+
+.noro img{
+    margin: 60px;
+    width: 350px;
+    height: 500px;
+}
+
+.imagens img{
+    margin: 60px;
+    width: 350px;
+    height: 500px;
 }
